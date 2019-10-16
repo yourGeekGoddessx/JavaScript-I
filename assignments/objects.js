@@ -2,7 +2,31 @@
 
 // ==== Challenge 1: Writing Objects ==== 
 // HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
-
+const person = { 
+  id: 0,
+  email: "mmelloy0@psu.edu", 
+  name: "Mitzi", 
+  gender: "F"}
+const person1 = { 
+  id: 1,
+  email: "kdiben1@tinypic.com", 
+  name: "Kennan", 
+  gender: "M"}
+const person2 = { 
+  id: 2,
+  email: "kmummery2@wikimedia.org", 
+  name: "Kevin", 
+  gender: "M"}
+const person3 = { 
+  id: 3,
+  email: "gmartinson3@illinois.edu", 
+  name: "Gannie", 
+  gender: "M"}
+const person4 = { 
+  id: 4,
+  email: "adaine5@samsung.com", 
+  name: "Antonietta", 
+  gender: "F"}
 // 1, mmelloy0@psu.edu, Mitzi, F
 // 2, kdiben1@tinypic.com, Kennan, M
 // 3, kmummery2@wikimedia.org, Keven, M
@@ -24,14 +48,24 @@ const example = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log (person.name)
 
 // Kennan's ID
 
+console.log (person1.id)
+
+
 // Keven's email
+
+console.log (person2.email)
 
 // Gannie's name
 
+console.log (person3.name)
+
 // Antonietta's Gender
+
+console.log (person4.gender)
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
