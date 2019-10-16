@@ -15,7 +15,7 @@ hello = () => {
   return "Hello World!";
 }
 
-var funcName = (params) => params + 2
+const funcName = (params) => params + 2
 
 Object literals
 
